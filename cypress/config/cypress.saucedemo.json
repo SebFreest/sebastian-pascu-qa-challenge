@@ -1,0 +1,19 @@
+{
+    "requestTimeout": 60000,
+    "pageLoadTimeout": 70000,
+    "animationDistanceThreshold": 5,
+    "responseTimeout": 70000,
+    "defaultCommandTimeout": 6000,
+    "waitForAnimations": true,
+    "baseUrl": "https://www.saucedemo.com/",
+    "chromeWebSecurity": false,
+    "video": false,
+    "testFiles": [
+        "**/*.feature"
+    ],
+    "env": {
+        "environment": "Sauce Demo"
+    },
+    "viewportWidth": 1360,
+    "viewportHeight": 790
+}

@@ -1,0 +1,29 @@
+{
+  "name": "sebastian-pascu-qa-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebFreest/sebastian-pascu-qa-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebFreest/sebastian-pascu-qa-challenge/issues"
+  },
+  "homepage": "https://github.com/SebFreest/sebastian-pascu-qa-challenge#readme",
+  "devDependencies": {
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step-definitions/"
+  }
+}
