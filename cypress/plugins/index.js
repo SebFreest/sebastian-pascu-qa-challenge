@@ -2,6 +2,7 @@
 const path = require('path');
 const fs = require('fs-extra');
 const cucumber = require('cypress-cucumber-preprocessor').default;
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -30,6 +31,8 @@ function getConfigurationByFile(file) {
 
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber());
+
+  allureWriter(on, config);
 
   const file = config.env.configFile;
 
