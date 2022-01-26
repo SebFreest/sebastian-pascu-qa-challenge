@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "fe-test": "npx cypress run --headless --browser chrome"
   },
   "repository": {
     "type": "git",
