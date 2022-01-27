@@ -9,10 +9,13 @@
     "chromeWebSecurity": false,
     "video": false,
     "testFiles": [
-        "**/*.feature"
+        "**/*.feature",
+        "**/*.spec.js"
     ],
     "env": {
-        "environment": "Sauce Demo"
+        "environment": "Sauce Demo",
+        "allureResultsPath": "allure-results",
+        "baseEndpoint": "https://reqres.in"
     },
     "viewportWidth": 1360,
     "viewportHeight": 790
