@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-api-and-fe": "npx cypress run --headless --browser chrome allure=true",
-    "test-api-and-fe-headed": "npx cypress run --headed --browser chrome allure=true",
+    "test-api-and-fe": "npx cypress run --headless --browser chrome --env allure=true",
+    "test-api-and-fe-headed": "npx cypress run --headed --browser chrome --env allure=true",
     "report": "allure generate"
   },
   "repository": {
