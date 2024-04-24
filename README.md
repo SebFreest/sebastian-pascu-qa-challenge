@@ -1,4 +1,4 @@
-# qa-challenge-thinksuransce
+# qa-challenge
 
 ## Installation
 
